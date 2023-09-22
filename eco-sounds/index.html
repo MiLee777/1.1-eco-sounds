@@ -3,11 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Music For The Soul</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuggles&display=swap" rel="stylesheet">
 </head>
 <body>
-    
-    <script src="script.js"></script>
+    <header class="header">
+        <div class="header__container">
+            <h1 class="header__container-title">Music for the soul</h1>
+            <nav class="header__container-nav">
+                <ul class="nav__menu" id="menu">
+                    <!--<li class="menu__item" id="item">Rain</li>
+                    <li class="menu__item" id="item">Wind</li>
+                    <li class="menu__item" id="item">Forest</li>
+                    <li class="menu__item" id="item">Ocean</li>
+                    <li class="menu__item" id="item">Space</li>-->
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main__container">
+            <button class="main__container-btn play" id="play"></button>
+            <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline class="main__container-video" id="myVideo">
+                <source src="assets/video/rain.mp4" type="video/mp4">
+            </video>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__container">
+            <a href="https://rs.school/js-stage0/" target="_blank" ><img src="assets/icons/rss.svg" alt="RSS" class="footer__container-rss"></a>
+            <div class="footer__container-info">
+                <p>© 2023</p>
+                <p><a href="https://github.com/milee777" target="_blank" class="info-link">GitHub</a></p>
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="script.js"></script>
 </body>
 </html>
