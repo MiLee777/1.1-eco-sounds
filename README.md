@@ -1,2 +1,2 @@
-# 1.1-eco-sounds
+eco-sounds
 Sounds of nature
